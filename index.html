@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Mi Juego del Ahorcado</title>
+  
+  </head>
+
+  <body>
+
+
+
+
+
+    <div style="text-align:center; margin: 50px 0px;">
+
+        <h1 class="titulo">Juego del Ahorcado</h1>
+        <button type="button" class="btn btn-outline-warning btn-lg" id="boton-inicio">Iniciar Juego</button>
+     
+    </div>
+
+    <p>¡Ingresa una nueva palabra!</p>
+      <div class="container">
+          <div class="row">
+               <div style="text-align: center">
+                  <textarea name="" id="palabra-nueva" cols="50" placeholder="Escribí la palabra aquí..."></textarea>
+               </div>
+          </div>
+      </div>
+       
+      <div style="text-align:center">
+           <button type="button" class="btn btn-outline-success btn-lg" id="boton-agregar">Agregar</button>
+      </div>
+    
+     <br>
+
+    
+    <div style="text-align:center;"> 
+
+         <canvas id="ahorcado" height="800px" width="1200px" style="border:lightblue 2px solid;"></canvas>
+
+    </div>
+
+    <div style="text-align:center">
+
+      <button  type= "button" class="btn btn-outline-info btn-lg" id="boton-reiniciar" >De Nuevo</button>
+
+    </div>
+<br>
+
+    <footer class="footer">
+
+      <h6>© 2022 Costilla Celina Leonarda  
+
+        <a href="https://github.com/Hiddencelc" target="_blank"><img  alt=" logo GitHub" src="img/git.png" width="30" height="30"></a>
+
+        <a href="https://www.linkedin.com/in/celinacostilla31323344/" target="_blank"><img alt="GitHub" src="img/linkedin.png" width="30" height="30"></a>
+     </h6>
+
+  </footer>
+    
+
+  <script type="text/javascript" src="canvas.js"></script>
+  <script type="text/javascript" src="ahorcado.js"></script>
+
+  </body>
+
+</html>
+
